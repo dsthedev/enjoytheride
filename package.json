@@ -1,0 +1,16 @@
+{
+  "name": "enjoytheride",
+  "version": "1.0.0",
+  "description": "A simple example of using JoyRide2.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dsthedev",
+  "license": "ISC"
+}

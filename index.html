@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Joyride Demo</title>
+
+		<link rel=" stylesheet" type="text/css" href="css/foundation.css">
+
+		<!-- Attach the Joyride CSS file -->
+		<link rel=" stylesheet" type="text/css" href="css/joyride-2.1.css">
+
+		<!-- jQuery needs to be attached -->
+		<script src="js/jquery-v2.1.4.js"></script>
+		<!-- <script src="../jquery-1.10.1.js"></script> -->
+
+		<!-- Then attach the Joyride plugin -->
+		<script src="js/joyride-2.1.js"></script>
+		<!-- <script src="solo.joyride.min.js"></script> -->
+
+		<script src="js/js.cookie.min.js"></script>
+	</head>
+	<body>
+
+		<header>
+			<div class="top-bar">
+				<div class="top-bar-left">
+					<ul class="menu" id="navStop1">
+						<li><img src="https://placehold.it/120x50&text=LOGO" alt="company logo"></li>
+						<li><a href="#">One</a></li>
+						<li><a href="#">Two</a></li>
+						<li><a href="#">Three</a></li>
+						<li><a href="#">Four</a></li>
+					</ul>
+				</div>
+
+				<div class="top-bar-right">
+					<ul class="menu">
+						<li><span class="button tiny" id="showTips">Halp!?</span></li>
+						<li id="search-box"><input type="search" placeholder="Search"></li>
+						<li><button type="button" class="button">Search</button></li>
+					</ul>
+				</div>
+			</div>
+
+		</header>
+
+		<div class="row">
+			<div class="medium-8 columns">
+				<p><img src="https://placehold.it/900x450&text=Promoted Article" alt="main article image"></p>
+			</div>
+			<div class="medium-4 columns">
+				<p><img src="https://placehold.it/400x200&text=Other cool article" alt="article promo image" alt="advertisement for deep fried Twinkies"></p>
+				<p><img src="https://placehold.it/400x200&text=Other cool article" alt="article promo image"></p>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="row column">
+			<h4 style="margin: 0;" class="text-center" id="navStop2">BREAKING NEWS</h4>
+		</div>
+
+		<hr>
+
+		<div class="row small-up-3 medium-up-4 large-up-5">
+			<div class="column">
+				<img src="https://placehold.it/400x370&text=Look at me!" alt="image for article">
+			</div>
+			<div class="column">
+				<img src="https://placehold.it/400x370&text=Look at me!" alt="image for article">
+			</div>
+			<div class="column">
+				<img src="https://placehold.it/400x370&text=Look at me!" alt="image for article">
+			</div>
+			<div class="column show-for-medium">
+				<img src="https://placehold.it/400x370&text=Look at me!" alt="image for article">
+			</div>
+			<div class="column show-for-large">
+				<img src="https://placehold.it/400x370&text=Look at me!" alt="image for article">
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="row column">
+			<h4 style="margin: 0;" class="text-center" id="navStop3">LATEST STORIES</h4>
+		</div>
+
+		<hr>
+
+		<div class="row">
+			<div class="large-8 columns" style="border-right: 1px solid #E3E5E8;">
+				<article>
+					<div class="row">
+						<div class="large-6 columns">
+							<p><img src="https://placehold.it/600x370&text=Look at me!" alt="image for article" alt="article preview image"></p>
+						</div>
+						<div class="large-6 columns">
+							<h5><a href="#">'Death Star' Vaporizes Its Own Planet</a></h5>
+							<p>
+								<span><i class="fi-torso"> By Thadeus &nbsp;&nbsp;</i></span>
+								<span><i class="fi-calendar"> 11/23/16 &nbsp;&nbsp;</i></span>
+								<span><i class="fi-comments"> 6 comments</i></span>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="large-6 columns">
+							<p><img src="https://placehold.it/600x370&text=Look at me!" alt="image for article" alt="article preview image"></p>
+						</div>
+						<div class="large-6 columns">
+							<h5><a href="#">NASA's SLS Rocket Sheds Saturn V Color Scheme in Design Review</a></h5>
+							<p>
+								<span><i class="fi-torso"> By Thadeus &nbsp;&nbsp;</i></span>
+								<span><i class="fi-calendar"> 11/23/16 &nbsp;&nbsp;</i></span>
+								<span><i class="fi-comments"> 6 comments</i></span>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="large-6 columns">
+							<p><img src="https://placehold.it/600x370&text=Look at me!" alt="image for article" alt="article preview image"></p>
+						</div>
+						<div class="large-6 columns">
+							<h5><a href="#">Ingredients for Life Were Always Present on Earth, Comet Suggests</a></h5>
+							<p>
+								<span><i class="fi-torso"> By Thadeus &nbsp;&nbsp;</i></span>
+								<span><i class="fi-calendar"> 11/23/16 &nbsp;&nbsp;</i></span>
+								<span><i class="fi-comments"> 6 comments</i></span>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="large-6 columns">
+							<p><img src="https://placehold.it/600x370&text=Look at me!" alt="image for article" alt="article preview image"></p>
+						</div>
+						<div class="large-6 columns">
+							<h5><a href="#">Astronaut's Watch Worn on the Moon Sells for Record $1.6 Million</a></h5>
+							<p>
+								<span><i class="fi-torso"> By Thadeus &nbsp;&nbsp;</i></span>
+								<span><i class="fi-calendar"> 11/23/16 &nbsp;&nbsp;</i></span>
+								<span><i class="fi-comments"> 6 comments</i></span>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="large-6 columns">
+							<p><img src="https://placehold.it/600x370&text=Look at me!" alt="image for article" alt="article preview image"></p>
+						</div>
+						<div class="large-6 columns">
+							<h5><a href="#">Interstellar Dust on the Galaxy's Magnetic Field | Space Wallpaper</a></h5>
+							<p>
+								<span><i class="fi-torso"> By Thadeus &nbsp;&nbsp;</i></span>
+								<span><i class="fi-calendar"> 11/23/16 &nbsp;&nbsp;</i></span>
+								<span><i class="fi-comments"> 6 comments</i></span>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="large-6 columns">
+							<p><img src="https://placehold.it/600x370&text=Look at me!" alt="image for article" alt="article preview image"></p>
+						</div>
+						<div class="large-6 columns">
+							<h5><a href="#">Explore the Moon (Virtually) with These Awesome Global Maps</a></h5>
+							<p>
+								<span><i class="fi-torso"> By Thadeus &nbsp;&nbsp;</i></span>
+								<span><i class="fi-calendar"> 11/23/16 &nbsp;&nbsp;</i></span>
+								<span><i class="fi-comments"> 6 comments</i></span>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</p>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="large-6 columns">
+							<p><img src="https://placehold.it/600x370&text=Look at me!" alt="image for article" alt="article preview image"></p>
+						</div>
+						<div class="large-6 columns">
+							<h5><a href="#">Best Space Books and Sci-Fi: A Space.com Reading List</a></h5>
+							<p>
+								<span><i class="fi-torso"> By Thadeus &nbsp;&nbsp;</i></span>
+								<span><i class="fi-calendar"> 11/23/16 &nbsp;&nbsp;</i></span>
+								<span><i class="fi-comments"> 6 comments</i></span>
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</p>
+						</div>
+					</div>
+					<hr>
+					<ul class="pagination" role="navigation" aria-label="Pagination">
+						<li class="disabled">Previous <span class="show-for-sr">page</span></li>
+						<li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+						<li><a href="#" aria-label="Page 2">2</a></li>
+						<li><a href="#" aria-label="Page 3">3</a></li>
+						<li><a href="#" aria-label="Page 4">4</a></li>
+						<li><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+					</ul>
+				</article>
+			</div>
+			<div class="large-4 columns">
+				<aside>
+					<div class="row small-up-3">
+						<div class="column text-center">
+							<i class="fi-social-facebook"></i>
+							<h6>56,009</h6>
+							<p><small>FOLLOWERS</small></p>
+							<br>
+						</div>
+						<div class="column text-center">
+							<i class="fi-social-twitter"></i>
+							<h6>76,905</h6>
+							<p><small>FOLLOWERS</small></p>
+							<br>
+						</div>
+						<div class="column text-center">
+							<i class="fi-social-instagram"></i>
+							<h6>34,099</h6>
+							<p><small>FOLLOWERS</small></p>
+							<br>
+						</div>
+						<div class="column text-center">
+							<i class="fi-social-tumblr"></i>
+							<h6>13,765</h6>
+							<p><small>FOLLOWERS</small></p>
+						</div>
+						<div class="column text-center">
+							<i class="fi-social-pinterest"></i>
+							<h6>9,283</h6>
+							<p><small>FOLLOWERS</small></p>
+						</div>
+						<div class="column text-center">
+							<i class="fi-social-youtube"></i>
+							<h6>99,000</h6>
+							<p><small>FOLLOWERS</small></p>
+						</div>
+					</div>
+					<br>
+					<div class="row column">
+						<p class="lead">FROM OUR FRIENDS</p>
+						<p><img src="https://placehold.it/400x300&text=Buy Me!" alt="advertisement of ShamWow"></p>
+					</div>
+					<br>
+					<div class="row column">
+						<p class="lead">TRENDING POSTS</p>
+						<div class="media-object">
+							<div class="media-object-section">
+								<img class="thumbnail" src="https://placehold.it/100">
+							</div>
+							<div class="media-object-section">
+								<h5>All I need is a space suit and I'm ready to go.</h5>
+							</div>
+						</div>
+						<div class="media-object">
+							<div class="media-object-section">
+								<img class="thumbnail" src="https://placehold.it/100">
+							</div>
+							<div class="media-object-section">
+								<h5>Are the stars out tonight? I don't know if it's cloudy or bright.</h5>
+							</div>
+						</div>
+						<div class="media-object">
+							<div class="media-object-section">
+								<img class="thumbnail" src="https://placehold.it/100">
+							</div>
+							<div class="media-object-section">
+								<h5>And the world keeps spinning.</h5>
+							</div>
+						</div>
+						<div class="media-object">
+							<div class="media-object-section">
+								<img class="thumbnail" src="https://placehold.it/100">
+							</div>
+							<div class="media-object-section">
+								<h5>Cold hearted orb that rules the night.</h5>
+							</div>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</div>
+
+		<footer>
+			<div class="row expanded callout secondary">
+				<div class="large-4 columns">
+					<h5>FLICKR IMAGES</h5>
+					<div class="row small-up-4">
+						<div class="column"><img class="thumbnail" src="https://placehold.it/75" alt="image of space dog"></div>
+						<div class="column"><img class="thumbnail" src="https://placehold.it/75" alt="image of space dog"></div>
+						<div class="column"><img class="thumbnail" src="https://placehold.it/75" alt="image of space dog"></div>
+						<div class="column"><img class="thumbnail" src="https://placehold.it/75" alt="image of space dog"></div>
+						<div class="column"><img class="thumbnail" src="https://placehold.it/75" alt="image of space dog"></div>
+						<div class="column"><img class="thumbnail" src="https://placehold.it/75" alt="image of space dog"></div>
+						<div class="column"><img class="thumbnail" src="https://placehold.it/75" alt="image of space dog"></div>
+						<div class="column"><img class="thumbnail" src="https://placehold.it/75" alt="image of space dog"></div>
+					</div>
+				</div>
+				<div class="large-4 columns">
+					<h5>FLICKR IMAGES</h5>
+					<span class="secondary label">Space</span>
+					<span class="secondary label">Galaxies</span>
+					<span class="secondary label">Milky Way</span>
+					<span class="secondary label">Black Holes</span>
+					<span class="secondary label">Rebels</span>
+					<span class="secondary label">Death Star</span>
+					<span class="secondary label">Republic</span>
+					<span class="secondary label">R2D2</span>
+				</div>
+				<div class="large-4 columns">
+					<h5>RANDOM MAG</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quam voluptatum vel repellat ab similique molestias molestiae ea omnis eos, id asperiores est praesentium, voluptate officia nulla aspernatur sequi aliquam.</p>
+				</div>
+			</div>
+			<div class="row expanded">
+				<div class="medium-6 columns">
+					<ul class="menu">
+						<li><a href="#">Legal</a></li>
+						<li><a href="#">Partner</a></li>
+						<li><a href="#">Explore</a></li>
+					</ul>
+				</div>
+				<div class="medium-6 columns">
+					<ul class="menu align-right">
+						<li class="menu-text">Copyright © 2099 Random Mag</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<style>
+			body .joyride-tip-guide {
+				z-index: 100000;
+				max-width: 320px;
+			}
+			.joyride-modal-bg {
+				background-color: rgba(0,0,0,0.5);
+				opacity: 1;
+			}
+			.joyride-content-wrapper {
+				font-family: 'Lato';
+			}
+			.joyride-content-wrapper p {
+				font-size: 16px;
+			}
+			.hideTips, .joyride-close-tip {
+				transition: 0.3s;
+			}
+			.hideTips {
+				position: absolute;
+				bottom: 4px;
+				right: 4px;
+				font-size: 12px;
+				color: grey;
+			}
+			.hideTips:hover {
+				text-shadow: 0 0 2px rgba(255,255,255,0.5);
+			}
+			.joyride-tip-guide .joyride-next-tip {
+				padding: 0.5rem 2rem;
+				font-size: 16px;
+				font-family: 'Lato';
+				box-shadow: unset;
+				border: none;
+				border-radius: 0;
+			}
+		</style>
+
+		<ol id="ltNavTour" style="display: none;">
+			<li class="tour-stop" data-button="Sure!"><!-- data-button="Filters" -->
+				<h3>Welcome!</h3>
+				<hr>
+				<p>We've changed the look of our site, and would like to show you around first.</p>
+				<p>Would you like a quick tour?</p>
+				<span class="hideTips">No Thanks</span>
+			</li>
+			<li data-id="navStop1" class="tour-stop"><!-- data-button="Filters" -->
+				<h4>Main Menu</h4>
+				<hr>
+				<p>The main menu is now located in the upper left corner.</p>
+			</li>
+			<li data-id="navStop2" class="tour-stop"><!-- data-button="Sections" -->
+				<h4>Breaking News!</h4>
+				<hr>
+				<p>This content is super important, maybe.</p>
+			</li>
+			<li data-id="navStop3" class="tour-stop jrf1"><!-- data-button="Subscribe" -->
+				<h4>Latest Stories</h4>
+				<hr>
+				<p>Fresh AF!</p>
+				<span class="hideTips button tiny">Not fresh enough :(</span>
+			</li>
+			<li data-id="search-box" class="tour-stop" data-button="Got it!" data-options="tipLocation:right;">
+				<h4>Search</h4>
+				<hr>
+				<p>Can't find what you're looking for?  Look here.</p>
+			</li>
+			<li data-id="showTips" class="tour-stop" data-button="A'ight, Word!">
+				<h4>Need Help?</h4>
+				<hr>
+				<p>If you want to view this guide again, just press this here button dawg.</p>
+				<span class="hideTips">Now leave me alone!</span>
+			</li>
+		</ol>
+
+		<script>
+			jQuery(document).ready(function($) {
+			// $(window).load(function() {
+
+				/** LT JoyRide!
+					* dsthedev
+					*
+					* This code uses Zurb's JoyRide 2 library to help familiarize new users with
+					* new sites layout.  It shows up by default, and gives them a choice to
+					* either follow along, or hide tips indefinitely.  If they choose to hide
+					* them, there will be a help icon in the main menu to turn them back on.
+					*
+					**/
+
+				// This function fires up the joyride, no need to call $.joyride multiple times
+				function initJoyride(elem) {
+					// $.joyride initializes the walkthrough, default options can be found in joyride-2.1.js:14
+					$(elem).joyride({
+						'autoStart': true, // true or false - false tour starts when restart called
+						'modal': true,     // Whether to cover page with modal during the tour
+						'expose': false,     // Whether to expose the elements at each step in the tour (requires modal:true)
+						'template': { // HTML segments for tip layout
+							'button'  : '<button class="joyride-next-tip"></button>',
+						},
+					});
+				}
+
+				// If they click the help icon, remove the cookie and start the joyride
+				$(document).on("click","#showTips",function() {
+					Cookies.remove('hideTips');
+					jQuery('.joyride-tip-guide, .joyride-modal-bg').css({
+						opacity: '1'
+					});
+
+					initJoyride('#ltNavTour');
+				});
+
+				// Set the cookie so it doesn't show again, and hide the tips (& modal!)
+				$(document).on("click",".hideTips",function() {
+					Cookies.set('hideTips', 'true');
+
+					jQuery('.joyride-tip-guide, .joyride-modal-bg').css({
+						transition: '0.2s',
+						opacity: '0',
+					});
+					jQuery('.joyride-tip-guide, .joyride-modal-bg').attr('style', '');
+				});
+
+				// This could be reduced, but it's nice to have if/else for debugging.
+				if (Cookies.get('hideTips')) {
+					// console.log('hideTips cookie found, no joyride!'); debug
+				} else {
+					initJoyride('#ltNavTour');
+				}
+				/** end of LT JoyRide! **/
+
+			});
+		</script>
+	</body>
+</html>
